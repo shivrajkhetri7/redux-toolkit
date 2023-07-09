@@ -1,0 +1,46 @@
+.btn-delete {
+  background-color: rgb(246, 34, 34);
+  color: white;
+  font-size: medium;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+
+  &:hover {
+    background-color: rgb(250, 4, 4);
+  }
+}
+
+.btn-adduser {
+  background-color: rgb(30, 114, 224);
+  color: white;
+  font-size: medium;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: auto;
+  &:hover {
+    background-color: rgb(0, 80, 184);
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-container {
+  width: 80vw;
+  height: 80vh;
+}
+
+.list-user {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
